@@ -14,7 +14,7 @@
 				<div class="header">
 					<h1>Princess Caroline's Untitled Project</h1>
 				</div>
-				<img src="art/DirtyPostcard.png" class="postcard">
+				<img src="art/DirtyPostcard.png" class="postcard responsive">
 				
 				<div class="body">
 					<div class="summary">
@@ -73,27 +73,35 @@
 					<h1>Episode List</h1>
 					<div class="episodeList">
 						<!-- Lets look into making these look like File folders! -->
-						<div class="episodeTab">
-							<h2>Episode 1: <b>The Church With A View</b></h2>
-							<h3>Original Airdate: N/A</h3>
-							<p>A church fueled on hatred becomes the beacon for ghosts and poltergeists to cross over to our world. They possess the stained glass windows and kill all who dare cross them.</p>
+						<div class="episodeTab"> <!-- Episode 1 -->
+							<h2 class="episodeTitle"><a id="myBtn">Episode 1: <b>The Church With A View</b></a></h2>
+							<h3 class="episodeAir">Original Airdate: N/A</h3>
+
+							<div id="myModal" class="modal"> <!-- The Modal -->
+								<!-- Modal content -->
+								<div class="modal-content">
+									<span class="close">&times;</span>
+									<p>A church fueled on hatred becomes the beacon for ghosts and poltergeists to cross over to our world. They possess the stained glass windows and kill all who dare cross them.</p>
+								</div>
+							</div>
 						</div>
-						<div class="episodeTab">
-							<h2>Episode 2 & 3: <b>The Plague of Webs</b></h2>
-							<h3>Original Airdate: N/A</h3>
+						<div class="episodeTab"> <!-- Episode 2 & 3 -->
+							<h2 class="episodeTitle">Episode 2 & 3: <b>The Plague of Webs</b></h2>
+							<h3 class="episodeAir">Original Airdate: N/A</h3>
 							<p>Doctor Atsuko Popov is a scientist-turned spider-person from a Cold War weapons test gone wrong. Now in modern times she continues to test the bioweapon that created her, inadvertantly creating a plague that stands to mutate the world into spiders.</p>
 						</div>
-						<div class="episodeTab">
-							<h2>Episode 4: <b>The Circles</b></h2>
-							<h3>Original Airdate: 2020-12-14</h3>
+						<div class="episodeTab"> <!-- Episode 4 -->
+							<h2 class="episodeTitle">Episode 4: <b>The Circles</b></h2>
+							<h3 class="episodeAir">Original Airdate: 2020-12-14</h3>
 							<p>An immortal Minotaur, Pavlos, needs to feed upon human flesh every 7 years to maintain his life. He does this by traveling across the US disguised as a farmer, and lures folks into his cornfield advertising "Alien sightings". He needs one more meal before he moves out and our intrepid few are next on the menu!</p>
 						</div>
-						<div class="episodeTab">
-							<h2>Episode 5: <b>The Attack of the Rapid Moss</b></h2>
-							<h3>Original Airdate: 2020-12-21</h3>
+						<div class="episodeTab"> <!-- Episode 5 -->
+							<h2 class="episodeTitle">Episode 5: <b>The Attack of the Rapid Moss</b></h2>
+							<h3 class="episodeAir">Original Airdate: 2020-12-21</h3>
 							<p>Two scientists in a remote forest laboratory engineer an intelligent "Learning Moss". But the Moss yearns for world domination. By the time our heroes have already stumbled upon the mossy knolls, it may already be too late!</p>
 						</div>
 					</div>
+					<script type="text/javascript" src="scripts/modal.js"></script>
 				</div>
 				
 				<div class="footer">
