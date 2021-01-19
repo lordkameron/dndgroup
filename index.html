@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>WIP MOTW</title>
+		<title>Babylon</title>
 		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="main.css">
-		<meta name="description" content="This is the personal works of Kameron Watson">
+		<meta name="description" content="The source of the Babylon Livestream Podcast. An actual play of the Monster of the Week RPG.">
 		<meta name="author" content="Kameron Watson">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
@@ -17,7 +17,16 @@
 		<center>
 			<div class="main">
 				<div class="header">
-					<h1>Princess Caroline's Untitled Project</h1>
+					<h1 class="title, responsive">Babylon</h1>
+				</div>
+				<div class="navbar">
+					<ul class="navbarList">
+						<li class="nav"><a href="#Home">Home</a></li>
+						<li class="nav"><a href="#Episodes">Episodes</a></li>
+						<li class="nav"><a href="#Cast">Cast</a></li>
+						<li class="nav"><a href="#About">About</a></li>
+						<li style="float:right" class="nav"><a href="#Social">Social</a></li>
+					</ul>
 				</div>
 				<img src="art/DirtyPostcard.png" class="postcard responsive">
 				
@@ -36,28 +45,33 @@
 						<!-- Full-width images with number and caption text -->
 						<div class="mySlides fade">
 							<div class="numbertext">1</div>
-							<div style="background-color:#732D2A; width:100%; height:360px;"></div>
-							<div class="text">Caption Text</div>
+							<img class="charCard" alt="Alexander: Who's Asking?" src="art/CharCard/XanderCard_Miffix.jpg">
+							<div class="text">Alexander Zapruder is the grandson of yes, THAT Zapruder. At 41, he's the senior member of the Bablyon crew. His obsession with conspiracies (these aren't theories, these are facts) started with before his conception, with his Grandfather's proof that the assassination of JFK was, in fact, a hit by the CIA. Since then, his family has been devoted to exposing, the CIA for what it really is: a domestic terror organization run by the Illuminati. What does this have to do with monsters? He has to make sure the Illuminati can't weaponize them.</div>
 						</div>
 						<div class="mySlides fade">
 							<div class="numbertext">2</div>
-							<div style="background-color:#333; width:100%; height:360px;"></div>
-							<div class="text">Caption Two</div>
+							<img class="charCard" alt="Ciaran: Sarcastoc Wendigoth" src="art/CharCard/CiaranCard_Miffix.jpg">
+							<div class="text">Ciaran is a 27 year old loner of sorts. He mostly sarcastic and only has a small handful of people he can trust, and a forest spirit named Fir, He gained his supernatural powers from fir at a young age but ultimately his powers did come at a cost, his family. After they were killed he was passed around from foster home to foster home. He always had a fascination with insects and the macabre and found some comfort drab and dreary. His supernatural powers do sometimes get the best of him and he tends to go overboard with control of others.</div>
 						</div>
 						<div class="mySlides fade">
 							<div class="numbertext">3</div>
-							<div style="background-color:#AAA; width:100%; height:360px;"></div>
-							<div class="text">Caption Three</div>
+							<img class="charCard" alt="Kameron: The Keeper that's a Keeper" src="art/CharCard/KamCard_Miffix.jpg">
+							<div class="text">The Keeper of Elderitch Truths, and Monstrous Improv. Kameron is the GM of the game and crafter of our story.</div>
 						</div>
 						<div class="mySlides fade">
 							<div class="numbertext">4</div>
-							<div style="background-color:#CCC; width:100%; height:360px;"></div>
-							<div class="text">Caption Four</div>
+							<img class="charCard" alt="Malkita: Apocalyptic Hellhound" src="art/CharCard/Mal2Card_Miffix.jpg">
+							<div class="text">Mal was brought back by the summoning ritual. They had a human sacrifice that was being burned alive to summon him. The similar pain the victim was feeling was powerful enough to be felt between two plains and is what brought him specifically. The agony of the victim and the vile intentions of those making the sacrifice brought him into the world in an explosion of screaming and burning flesh. The fire of the explosion killed all those trying to perform the ritual. They didn't intend to die, and had no idea that rush of emotion he felt coming back into the world in a fight or flight state would cause a reaction on that scale. He never found out why they did it or what they wanted, just that he was there and immediately got a taste anger, blood, and hate that he felt when he died. Mal and Phey met shortly after Malkita was summoned. He was weak still from being new to the world and fought with another monster. Phey found them fighting and saved him involuntarily by restraining the other monster with magic, this being the first encounter she actually used her newfound runes on. He landed a killing blow and survived, but wound up a blood soaked unstable mess that she took pity on and nursed to health with some secret help from Matilda (Rene was kept in the dark on Mal until they came out as a couple). That was the first time Mal had encountered compassion, and reluctantly at first they earned each other’s trust.</div>
 						</div>
 						<div class="mySlides fade">
 							<div class="numbertext">5</div>
-							<div style="background-color:#261D2E; width:100%; height:360px;"></div>
-							<div class="text">Caption Five</div>
+							<img class="charCard" alt="Phey: Louisville Spellslugger" src="art/CharCard/PheyCard_Miffix.jpg">
+							<div class="text">This is where Phey would put her Character desciption. IF SHE EVER WROTE IT!</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="numbertext">6</div>
+							<img class="charCard" alt="Vincent: Glittering Vigilante" src="art/CharCard/VinceCard_Miffix.jpg">
+							<div class="text">Vincent is a 20 year old, korean, white werewolf. In his day life, he works as a college student, studying general education trying to find out what he wants to do with his life. Contrasting with his night life of being Saint Augustine's werewolf vigilante "White Fang" as the townspeople have begun to call him. He also has a night job as the leader of the Full Moon Flashers stripper group, hosted by the club Sinister.</div>
 						</div>
 						<!-- Next and previous buttons -->
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -70,6 +84,7 @@
 						<span class="dot" onclick="currentSlide(2)"></span>
 						<span class="dot" onclick="currentSlide(3)"></span>
 						<span class="dot" onclick="currentSlide(4)"></span>
+						<span class="dot" onclick="currentSlide(5)"></span>
 						<span class="dot" onclick="currentSlide(5)"></span>
 					</div>
 					<script type="text/javascript" src="scripts/castbox.js"></script>

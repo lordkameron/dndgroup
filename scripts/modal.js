@@ -45,7 +45,7 @@ var episodes = [
   {
 	name: '6',
 	episodeNumber: 'ep6',
-	subtext: 'The Timely Ordeal Part 1',
+	subtext: 'Let\'s Make A Deal Part 1',
     description: 'After sacrificing himself to save Vincent, Ciaran\'s death hangs heavily on the group. Unsatisfied, they search fruitlessly for a way to revive their fallen companion, until they come across a "friendly" forest deity known as "Fir".',
     airDate: '2021-01-02',
     urlLink: ''  
@@ -53,9 +53,17 @@ var episodes = [
   {
 	name: '7',
 	episodeNumber: 'ep7',
-	subtext: 'The Timely Ordeal Part 2',
+	subtext: 'Let\'s Make A Deal Part 2',
     description: 'The gang has been transported to a bizarre place! The sky is red, the moon is half gone, and they have 24 hours to find a "High Daemon Heart" before Ciaran dies.',
     airDate: '2021-01-11',
+    urlLink: ''  
+  },
+  {
+	name: '8',
+	episodeNumber: 'ep8',
+	subtext: 'The King of TV',
+    description: 'The Town of St. Augustine is treated to a buzz of commotion. Elvis and Nixon have returned from the dead to St Augustine! And they\'re fighting crime!',
+    airDate: '2021-01-15',
     urlLink: ''  
   }
 ]
