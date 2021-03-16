@@ -65,6 +65,54 @@ var episodes = [
     description: 'The Town of St. Augustine is treated to a buzz of commotion. Elvis and Nixon have returned from the dead to St Augustine! And they\'re fighting crime!',
     airDate: '2021-01-15',
     urlLink: ''  
+  },
+  {
+	name: '9',
+	episodeNumber: 'ep9',
+	subtext: 'The Disk Most Black Part 1',
+    description: 'A strange black disc has been making the rounds in St. Augustine. Its believed by many teens and college students to hold some of the strangest, newest music ever recorded. But unknown to them, it is also host to an evil spirit dead set on taking over the world!',
+    airDate: '2021-01-29',
+    urlLink: ''  
+  },
+  {
+	name: '10',
+	episodeNumber: 'ep10',
+	subtext: 'The Disk Most Black Part 2',
+    description: 'TO BE FILLED',
+    airDate: '2021-02-05',
+    urlLink: ''  
+  },
+  {
+	name: '11',
+	episodeNumber: 'ep11',
+	subtext: 'The Disk Most Black Part 3',
+    description: 'TO BE FILLED',
+    airDate: '2021-02-12',
+    urlLink: ''  
+  },
+  {
+	name: '12',
+	episodeNumber: 'ep12',
+	subtext: 'The King of the Beach Part 1',
+    description: 'TO BE FILLED',
+    airDate: '2021-02-19',
+    urlLink: ''  
+  },
+  {
+	name: '13',
+	episodeNumber: 'ep13',
+	subtext: 'The King of the Beach Part 2',
+    description: 'TO BE FILLED',
+    airDate: '2021-02-26',
+    urlLink: ''  
+  },
+  {
+	name: '14',
+	episodeNumber: 'ep14',
+	subtext: 'The King of the Beach Part 3',
+    description: 'TO BE FILLED',
+    airDate: '2021-03-05',
+    urlLink: ''  
   }
 ]
 
