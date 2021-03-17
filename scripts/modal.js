@@ -70,7 +70,7 @@ var episodes = [
 	name: '9',
 	episodeNumber: 'ep9',
 	subtext: 'The Disk Most Black Part 1',
-    description: 'A strange black disc has been making the rounds in St. Augustine. Its believed by many teens and college students to hold some of the strangest, newest music ever recorded. But unknown to them, it is also host to an evil spirit dead set on taking over the world!',
+    description: 'The Babylon crew has some time to cool down for this adventure. Phey, with the help of her aunts, takes a mental "spirit walk" into the memories of Ciaran. Malkita and Alexander take a trip down to the library of Hell. And Vincent... fails a math test.',
     airDate: '2021-01-29',
     urlLink: ''  
   },
@@ -78,7 +78,7 @@ var episodes = [
 	name: '10',
 	episodeNumber: 'ep10',
 	subtext: 'The Disk Most Black Part 2',
-    description: 'TO BE FILLED',
+    description: 'A strange black disc has been making the rounds in St. Augustine. Its believed by many teens and college students to hold some of the strangest, newest music ever recorded. But unknown to them, it is also host to an evil spirit dead set on taking over the world!',
     airDate: '2021-02-05',
     urlLink: ''  
   },
@@ -86,7 +86,7 @@ var episodes = [
 	name: '11',
 	episodeNumber: 'ep11',
 	subtext: 'The Disk Most Black Part 3',
-    description: 'TO BE FILLED',
+    description: 'The Disk has been found, cornered, and captured. The next step, banishing it back to Hell!',
     airDate: '2021-02-12',
     urlLink: ''  
   },
@@ -94,7 +94,7 @@ var episodes = [
 	name: '12',
 	episodeNumber: 'ep12',
 	subtext: 'The King of the Beach Part 1',
-    description: 'TO BE FILLED',
+    description: 'The crew decides to take a day off from Monster Hunting and takes a trip to Vilano Beach. They chose a fortuitous time too, as its time for the "King of the Beach" competition. A fun-summer-sun competition where teams gather together to prove they are the "Kings" of the Beach. Woohoo! Beach Episode!!!!',
     airDate: '2021-02-19',
     urlLink: ''  
   },
@@ -102,7 +102,7 @@ var episodes = [
 	name: '13',
 	episodeNumber: 'ep13',
 	subtext: 'The King of the Beach Part 2',
-    description: 'TO BE FILLED',
+    description: 'The ',
     airDate: '2021-02-26',
     urlLink: ''  
   },
@@ -112,6 +112,14 @@ var episodes = [
 	subtext: 'The King of the Beach Part 3',
     description: 'TO BE FILLED',
     airDate: '2021-03-05',
+    urlLink: ''  
+  },
+  {
+	name: '15',
+	episodeNumber: 'ep14',
+	subtext: 'Babylon Boogie Revolution Max',
+    description: 'TO BE FILLED',
+    airDate: '2021-03-20',
     urlLink: ''  
   }
 ]

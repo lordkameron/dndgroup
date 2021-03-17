@@ -100,7 +100,7 @@ div.episodeTab {
 	color: black;
 }
 h2.episodeTitle {
-	padding: 1rem;
+	padding: 1rem 1rem 1rem 0.6rem;
 	font-size: 1rem;
 }
 h3.episodeAir {
@@ -110,7 +110,8 @@ h3.episodeAir {
 /* Castbox slideshow ------------------------------------------------------------ */
 * {box-sizing:border-box}
 img.charCard {
-	max-width: 864px;
+	max-width: 54rem;
+	height: auto;
 }
 
 /* Slideshow container */
