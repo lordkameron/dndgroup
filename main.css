@@ -99,6 +99,7 @@ div.episodeTab {
 	/* background-repeat: no-repeat; */
 	background: linear-gradient(180deg, rgba(255,209,162,1) 2%, rgba(254,220,166,1) 8%, rgba(110,89,55,1) 100%);
 	color: black;
+	border-radius: 0px 10px 0px 0px;
 }
 h2.episodeTitle > a {
 	padding: 1.2rem 1rem 1rem 0.6rem;
@@ -111,7 +112,7 @@ h2.episodeTitle > a {
 	
 }
 h2.episodeTitle {
-	margin-top: 0rem;
+	margin-top: -2rem;
 }
 h3.episodeAir {
 	color: #732D2A;
