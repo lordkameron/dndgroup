@@ -101,6 +101,14 @@ div.episodeTab {
 	color: black;
 	border-radius: 0px 10px 0px 0px;
 }
+div.episodeTab a {
+	color: #732d2a;
+	cursor: pointer;
+	text-decoration: underline;
+}
+div.episodeTab a:hover {
+	text-decoration: none;
+}
 h2.episodeTitle > a {
 	padding: 1.2rem 1rem 1rem 0.6rem;
 	font-size: 1rem;
@@ -260,4 +268,31 @@ img.charCard {
 	color: black;
 	text-decoration: none;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+	div.main {
+		font-size: 0.6rem;
+	}
+	h2.episodeTitle {
+		margin-top: -1rem;
+		font-size: 0.2rem;
+	}
+	h2.episodeTitle > a {
+		font-size: 0.7rem;
+			padding: 0.6rem 0.5rem 0.5rem 0.3rem;
+
+	}
+	.text {
+		font-size: 8px;
+		padding: 1rem 2rem;
+	}
+	.close {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 430px) {
+	.text {
+		display: none;
+	}
 }
