@@ -102,7 +102,7 @@ var episodes = [
 	name: '13',
 	episodeNumber: 'ep13',
 	subtext: 'The King of the Beach - Part 2',
-    description: 'Trouble reared its ugly head after the crew won the King of the Beach competition. Ciaran tried to kill JB and made a run for it, Malkita are being accosted by an Angel sent from heaven, and Vincent just can\'t seem to get a chance alone with Alice! At least they have the rest of their vacation on Colodaville to look forward too right?',
+    description: 'Trouble reared its ugly head after the crew won the King of the Beach competition. Ciaran tried to kill JB and made a run for it, Malkita and Phey are being accosted by an Angel sent from heaven, and Vincent just can\'t seem to get a chance alone with Alice! At least they have the rest of their vacation on Coladaville to look forward too right?',
     airDate: '2021-02-26',
     urlLink: ''  
   },
@@ -110,7 +110,7 @@ var episodes = [
 	name: '14',
 	episodeNumber: 'ep14',
 	subtext: 'The King of the Beach - Part 3',
-    description: 'CHAOS IS PARADISE! The mysterious JB has been a thrall of Fir the whole time and his using his tropical themepark as an all-you-can-eat human buffet! Will "Werewolf" be added to the menu?',
+    description: 'CHAOS IN PARADISE! The mysterious JB has been a thrall of Fir the whole time and is using his tropical themepark as an all-you-can-eat human buffet! Will "Werewolf" be added to the menu?',
     airDate: '2021-03-05',
     urlLink: ''  
   },
